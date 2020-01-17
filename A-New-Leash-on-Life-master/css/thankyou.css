@@ -1,0 +1,51 @@
+@import "html5reset.css";
+body {
+  background-color: #f8f0d5;
+  text-align: center;
+}
+
+#thankmain {
+  background-color: white;
+  border-radius: 10px;
+  height: 250px;
+  width: 400px;
+  border: 6px solid #e2552d;
+  box-shadow: 7px 7px 4px #4999b6;
+  margin: 100px auto 50px;
+  text-align: center;
+}
+
+#secondthanks {
+  color: #4999b6;
+  padding: 32px;
+  font-size: 44px;
+  font-family: 'Rubik', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #4999b6;
+}
+
+#back {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  padding: 12px;
+  border: 2px solid #e2552d;
+  background-color: white;
+  border-radius: 4px;
+  margin: 50px auto;
+  width: 200px;
+  box-shadow: 7px 7px 4px #4999b6;
+}
+
+#back:hover {
+  background-color: #e2552d;
+}
+
+a:hover {
+  color: white;
+}
+#puppers{
+  margin: 50px auto;
+
+}

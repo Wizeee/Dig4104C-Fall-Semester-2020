@@ -1,0 +1,114 @@
+    <footer class="footer">
+
+        <div class="columns">
+            <div class="column">
+                <p class="heading">Quick Links</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="heading">What We Do</p>
+                <ul>
+                    <li><a href="service_dogs.html">Service Dogs</a></li>
+                    <li><a href="therapy_dogs.html">Therapy Dogs</a></li>
+                    <li><a href="pen_pals.html">Pen Pals</a></li>
+                    <li><a href="puppy_raisers.html">Puppy Raisers</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="heading">Who We Are</p>
+                <ul>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="staff_and_supporters.html">Staff & Supporters</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="heading">Ways to Help</p>
+                <ul>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="heading">Social Media</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </span>
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fab fa-twitter"></i>
+                            </span> 
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fab fa-instagram"></i> 
+                            </span>
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <p>
+                    3420 N Porter Ave, Norman OK 73071 
+                </p>
+                <p>
+                    405 - 224 - 7715
+                </p>
+                    
+                <p>
+                    <button class="button">Donate</button> 
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script> 
+        // included here to get hamburger menu to work
+        // we can move this to footer.php when we convert files to .php files
+  
+        document.addEventListener('DOMContentLoaded', () => {
+  
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+  
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+  
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+  
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+  
+            });
+        });
+        }
+  
+        });
+    </script>
+    
+</body>
+</html>
+    

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Donate</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/donate.css">
+    <link rel="stylesheet" type="text/css" href="css/payment.css">
+
+    <script src="https://kit.fontawesome.com/0b7c034b65.js" crossorigin="anonymous"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <nav class="navbar navigation" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+          <img src="images/newleash_logo.png" alt="New Leash on Life logo" class="newleash_logo">
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+              <a href="index.html" class="navbar-item">
+                  Home
+              </a>
+              <a href="classes.html" class="navbar-item">
+                  Classes
+              </a>
+              <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                  What We Do
+                  </a>
+
+                  <div class="navbar-dropdown">
+                      <a href="service_dogs.html" class="navbar-item">
+                          Service Dogs
+                      </a>
+                      <a href="therapy_dogs.html" class="navbar-item">
+                          Therapy Dogs
+                      </a>
+                      <a href="pen_pals.html" class="navbar-item">
+                          Pen Pals
+                      </a>
+                      <a href="puppy_raisers.html" class="navbar-item">
+                          Puppy Raisers
+                      </a>
+                  </div>
+              </div>
+
+              <div class="navbar-item has-dropdown is-hoverable">
+                      <a class="navbar-link">
+                      Who We Are
+                      </a>
+
+                      <div class="navbar-dropdown">
+                          <a href="about_us.html" class="navbar-item">
+                              About Us
+                          </a>
+                          <a href="staff_and_supporters.html" class="navbar-item">
+                              Staff & Supporters
+                          </a>
+                          <a href="contact_us.html" class="navbar-item">
+                              Contact Us
+                          </a>
+                      </div>
+              </div>
+
+              <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link active">
+                  Ways to Help
+                  </a>
+
+                  <div class="navbar-dropdown active2">
+                      <a href="donate.html" class="navbar-item">
+                          Donate
+                      </a>
+                      <a href="volunteer.html" class="navbar-item">
+                          Volunteer
+                      </a>
+                  </div>
+              </div>
+
+
+              <div class="donate-btn">
+                  <a href="donate.html" class="button donate">Donate</a>
+              </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="hero is-medium grad_banner">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title title1">Donate</h1>
+          <p class="subtitle subtitle1">Spare some change?</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<center><h2>Donation Payment Form</h2></center>
+<br>
+<div class="row">
+  <div class="col-75">
+    <div class="container form_box">
+      <form action="thankyou.html">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Information</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname"  required placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" required placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" required placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" required placeholder="New York">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" required placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" required placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Credit Card Info</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fab fa-cc-visa" style="color:navy;"></i>
+              <i class="fab fa-cc-amex" style="color:blue;"></i>
+              <i class="fab fa-cc-mastercard" style="color:red;"></i>
+              <i class="fab fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Cardholder Name</label>
+            <input type="text" id="cname" name="cardname" required placeholder="John More Doe">
+            <label for="ccnum">Card Number</label>
+            <input type="text" id="ccnum" name="cardnumber" required placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" required placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" required placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Complete Donation" class="btn">
+      </form>
+    </div>
+  </div>
+
+</div>
+    </section>
+
+    <footer class="footer footer1">
+
+        <div class="columns">
+            <div class="column">
+                <p class="heading">Quick Links</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="heading">What We Do</p>
+                <ul>
+                    <li><a href="service_dogs.html">Service Dogs</a></li>
+                    <li><a href="therapy_dogs.html">Therapy Dogs</a></li>
+                    <li><a href="pen_pals.html">Pen Pals</a></li>
+                    <li><a href="puppy_raisers.html">Puppy Raisers</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="heading">Who We Are</p>
+                <ul>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="staff_and_supporters.html">Staff & Supporters</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="heading">Ways to Help</p>
+                <ul>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="heading">Social Media</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </span>
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="fab fa-instagram"></i>
+                            </span>
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <p>
+                    3420 N Porter Ave, Norman OK 73071
+                </p>
+                <p>
+                    405 - 224 - 7715
+                </p>
+
+                <p>
+                  <a href="donate.html" class="button donate">Donate</a>
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+      document.querySelector('.navbar-burger').addEventListener('click', function(){
+        this.classList.toggle('is-active');
+        document.querySelector('.navbar-menu').classList.toggle('is-active');
+      });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+.donate-grid {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 2em;
+}
+
+.wider {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.donate2 {
+  width: 60%;
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+.donate-buttons {
+  display: block;
+}
+
+.donate-buttons div {
+  float: left;
+  display: block;
+}
+
+.donate-buttons a.active {
+  color: #fefefe;
+}
+
+.donate-buttons a {
+  color: #fefefe;
+  display: inline-block;
+}
+
+.donate-btn2 {
+  padding: 1em;
+  background-color: #16B9C8;
+  font-weight: 600;
+}
+
+.donate-btn2:not(.active) {
+  padding: 1em;
+  background-color: #b2e2e7;
+  color: #fefefe;
+  font-weight: 400;
+}
+
+.donate-btn2:not(.active):hover {
+  background-color: #16B9C8;
+}
+
+.donations {
+  background-color: #f5f5f5;
+  display: block;
+  clear: both;
+  padding: 3em;
+}
+
+.donations input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.donations input:checked + label {
+  background-color: #fcc060;
+}
+
+.donations label {
+  background-color: #dad7d7;
+  padding: 1em;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.donations label:hover {
+  background-color: #fce2b8;
+}
+
+.donations input[type="text"] {
+  padding: 1em;
+  height: 4em;
+  width: 6em;
+}
+
+.donations input[type="submit"] {
+  background-color: #16B9C8;
+  color: #fefefe;
+  font-weight: 600;
+}
+
+.donations input[type="submit"]:hover {
+  background-color: #118b96;
+}
+
+@media screen and (max-width: 1024px) {
+  .donate2 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .donate2 {
+    width: 100%;
+    min-width: 400px;
+  }
+}
